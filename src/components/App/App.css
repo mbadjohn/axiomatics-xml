@@ -1,0 +1,138 @@
+/* Add this at the top of your CSS file to include the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    background-color: #005f73; /* Dark cyan for a deep, modern look */
+    color: #edf6f9; /* Soft off-white for text */
+    padding: 20px;
+    /* text-align: center; */
+}
+.h1 {
+    text-align: left;
+}
+.notification {
+    padding: 10px;
+    background-color: #4CAF50; /* Green for success */
+    color: #fff;
+    margin: 10px auto; /* Centered horizontally */
+    border-radius: 5px;
+    text-align: center;
+    width: 90%; /* Width of the notification box */
+    max-width: 600px; /* Maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.error-message {
+    padding: 10px;
+    background-color: #f44336; /* Red for error */
+    color: #3a2d2d60;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.details-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #777;
+}
+
+pre {
+    text-align: left;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #d0dfdd;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #2a9d8f;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #028090;
+}
+
+.reset-button {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #d0dfdd;
+    color: #1614149c;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.tree-container {
+    width: 95%;
+    height: 80%;
+    overflow: auto;
+}
+
+
+.rd3t-node circle {
+    fill: #e76f51; /* Warm terracotta for nodes */
+    stroke: #d62828; /* Dark red for node borders */
+    stroke-width: 2px;
+}
+
+.rd3t-node text {
+    font-size: 14px; /* Larger text for better readability */
+    
+}
+
+.rd3t-leaf-node circle {
+    fill: #2a9d8f;
+}
+
+.link {
+    stroke: #264653; /* Dark slate for links */
+    stroke-width: 2px;
+}
