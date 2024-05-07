@@ -62,9 +62,6 @@ const App: React.FC = () => {
     }
   };
 
-  console.log(errorDetails);
-  console.log(errorMessage);
-
   const resetViewer = () => {
     setXmlData(null);
     setErrorMessage(null);
